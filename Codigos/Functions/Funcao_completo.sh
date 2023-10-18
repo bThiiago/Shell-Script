@@ -25,7 +25,7 @@ function CheckSystem () {
 
    /usr/bin/clear
    # Macete para imprimir saida de funcao dentro do echo
-   echo -e "\033[0;32m Distrubuição:\033[0mt$(VersaoLinux)"
+   echo -e "\033[0;32m Distrubuição:\033[0m$(VersaoLinux)"
    #echo -e "### Distribuição:t$(VersaoLinux)"
 
    echo -e "\033[0;32m Processador\033[0m"
