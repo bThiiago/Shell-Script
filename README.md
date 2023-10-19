@@ -1,5 +1,5 @@
 # Introdução ao Shell Script
-
+Mini curso ministrado na SNCT - SEMANA NACIONAL DE CIÊNCIA E TECNOLOGIA de 2023
 ## Lista de exercicios
 
 ### Hello World:
