@@ -60,9 +60,7 @@ function CheckOptions () {
 
 }
 
-#if com $? ele verifica o comando anterior, no caso exibe um comando de erro que necessia
-#executar o script como usuario root. ele verifica se é diferente de zero
-#se for diferente de 0, ele nao é root, ou seja houve um erro.
+
 CheckUser
 if [ $? -ne "0" ]; then
    echo -e "Voce não é root, execute como super-usuario!"
